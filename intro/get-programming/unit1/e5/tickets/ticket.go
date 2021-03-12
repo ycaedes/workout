@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("Spaceline	Days Trip-type	Price")
 	fmt.Println("======================================")
 
-	for (count := 0; count < 10; count++) {
+	for count := 0; count < 10; count++ {
 		switch rand.Intn(3) {
 		case 0:
 			company = "Space Adventures"
